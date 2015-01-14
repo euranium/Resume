@@ -1,3 +1,11 @@
+## Files I dont want to keep track of
+Haggen_Cover_Letter.*
+Kyle_Rader_Resume.*
+
+## swap files
+*.swp
+*.cls
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
