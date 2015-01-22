@@ -1,86 +1,98 @@
 % LaTeX resume using res.cls
-\documentclass[line,margin]{res} 
+\documentclass[line,margin]{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \addtolength{\textheight}{2in}
 \addtolength{\textwidth}{.5in}
 \addtolength{\voffset }{-.5in}
 \addtolength{\oddsidemargin }{-.5in}
+\setlength{\parindent}{0pt}
+
+\renewcommand\familydefault{\sfdefault}
+\renewcommand\labelitemi{--}
 
 \begin{document}
 
-\name{\Large Rainier K Harvey}
-% \address used twice to have two lines of address
-\address{1034 24th Street Apt 5 Bellingham, WA 98225}
-\address{(360) 931-3237 rainierharvey@gmail.com, rainierharvey.me}
- 
+\name{{\LARGE Rainier Harvey}}
+\address{360.931.3237 $|$ rainierharvey@gmail.com $|$ https://rainierharvey.me $|$ github.com/euranium}
+
 \begin{resume}
  
-\section{EDUCATION}   Western Washington University, Bellingham, Wa ({\sl gpa: 3.2/4.0}).\\
-			     {\sl B.S.} in Computer Science (June 2017). Minor in Mathematics\\
-			      Class of 2017: {\sl M.S.} in Computer Science.
-			      
- {\sl Languages} 
-	\begin{table}[h]
-		\begin{tabular}{l l l}
-			Python, JavaScript, Java, CSS, HTML, C\#	
-		\end{tabular}
- 	\end{table}
+\section{EDUCATION}
+	{\bf Western Washington University}, Bellingham, WA \\
+	{\sl B.S.} Computer Science, {\small June 2017} -- Minors: Mathematics
 
 \section{EXPERIENCE}
 
-		{\sl Lifeguard} \hfill June 2010 - September 2014 \\
-                	Vancouver Parks and Recreation, Vancouver, Wa
-               	 \begin{itemize}  \itemsep -2pt
-                		\item Trained under Elis and Associates Lifeguarding for certification and maintained certification.
-                		\item CPR, AED, emergency equiment application and first aid training.
-                		\item Monitor indoor swimming area, interactions with customers.
-						\item Train new employees in emergency response and general conduct.
-                	\end{itemize}
+	%-- Personal projects --%
+	{\sl Languages} -- {\sl JavaScript, Python, Java}\\
+	{\sl Frameworks} -- {\sl Django, node.js, Angular.js, jQuery, express, Backbone.js} \\
+	{\sl Version Controll} -- {\sl Gig}\\
+	{\sl Personal Projects}\\
+	{\footnotesize https://github.com/euranium}\\
+	Tic-Tac-Var
+	\begin{itemize} \itemsep -2pt
+		\item Responsive tic-tac-toe game with several varients
+		\item Built with Angularjs, jQuery, HTML5, CSS3
+	\end{itemize}
+	Taskameleon
+	\begin{itemize} \itemsep -2pt
+		\item Responsive todo task tracker
+		\item Build with Backbonejs, jQuery, HTML5, CSS3 
+	\end{itemize}
+	Subsitution System
+	\begin{itemize} \itemsep -2pt
+		\item Dynamic subsitution form submision and accepting site for City of Vancouver Parks and Recreation Aquatics Department
+		\item Built with Django web framework, HTML5, CSS3, Sqlite
+	\end{itemize}
+	Tic-Tac-Toe AI
+	\begin{itemize} \itemsep -2pt
+		\item Computer program that plays tic-tac-toe on three levels of difficulty
+		\item Coded with java
+	\end{itemize}
+	Appetap
+	\begin{itemize} \itemsep -2pt
+		\item Design and build specialized restaurant selector 
+		\item Build with node.js, Angularjs, embeded javascript, LESS
+	\end{itemize}
 
-        {\sl WSI Swim Instructor} \hfill June 2010 - September 2014 \\
-                	Vancouver Parks and Recreation, Vancouver, Wa
-                  	\begin{itemize} \itemsep -2pt
-                   		\item Plan and run swim lessons.
-			\item critque and grade students, communicate with parents.
-			\item Train new employees in teaching, communication with parents and students.
-                   	\end{itemize}
+	%-- Grad teaching Assistant --%
+	{\sl Lifeguard} -- {\bf Vancouver Parks and Recreation Aquatics} \\
+	{\footnotesize Vancouver, WA  June 2010 - September 2014}
+	\begin{itemize} \itemsep -2pt
+		\item CPR, AED, emergency equiment application and first aid training.
+		\item Monitor indoor swimming area, interactions with customers.
+		\item Train new employees in emergency response and general conduct.
+	\end{itemize}
 
-\section{PROJECTS}
-	{\sl } \hfill https://github.com/euranium \\ 					
-	\begin{itemize} \itemsep -1pt
-		\item Designed, implemented specialized restaurant selector in node.js with LESS, express, backbone, ejs
-		\item Remake classic tic-tac-toe game with several dynamic variants with Angular.js, css, html
-		\item Design dynamic and intelligent task manager website, Taskameleon, with backbone.js, jQuery, css, html
-		\item Create dynamic substitution web site for Vancouver Parks and Recreation Aquatics deparment
-		\item Back end work with Django web framework, node.js with express.js, C\# .NET, Sqlite, postgesql, nginx 
-		\item Front end work with JavaScript, Angular.js, Backbone.js, jQuery, Twitter Bootstrap, html, css, ejs, jade 
-		\item Computer AI playing tic-tac-toe in Java
+	%-- Uzility --%
+	{\sl WSI Swim Instructor} -- {\bf Vancouver Parks and Recreation Aquatics} \\
+	{\footnotesize Vancouver, WA $|$  June 2010 - September 2014} \\
+	\begin{itemize}  \itemsep -2pt
+		\item Plan and run swim lessons.
+		\item critque and grade students, communicate with parents.
+		\item Train new employees in teaching, communication with parents and students.
+	\end{itemize}
+
+\section{ACTIVITIES} 
+	\begin{itemize} \itemsep -3pt
+	\item Association for Computing Machinery national member
+	\item Association for Women in Computer Science member 
+	\item Invent Coworking Startup Challenge, WWU Hackathon
+	\item WWU Startup Club
+	\item Humane Society, spring 2012
+	\item Boy Scouts of America, 2007-2012
+ 	\item USA Swimming
+	\item USA Triathalon
 	\end{itemize}
 
 \section{AWARDS}
-	\begin{itemize} \itemsep -1pt
+	\begin{itemize} \itemsep -3pt
 		\item International Baccalaurete Diploma
-		\item Swim team captain, most valuable athlete
+		\item Swim team captain, most valuable athlete 
 	\end{itemize}
- 
-\section{VOLUNTEER \\ SERVICE}
-		\begin{itemize} \itemsep -1pt
-			\item Humane Society, spring 2012
-			\item Boy Scouts of America, 2007-2012
-		\end{itemize}
 
-\section{EXTRA-CURRICULAR \\ ACTIVITIES} 
-	\begin{itemize} \itemsep -1pt
-	\item Association for Computing Machinery national member
-	\item Association for Women in Computer Science member
-	\item Invent Coworking Startup Challenge, WWU Hackathon
-	\item WWU Startup Club
-	\item Mathematics problem solving club
-	\item USA Swimming
-	\item USA Triathalon
-	\item German club
-	\end{itemize}
+	
 \end{resume}
-\end{document}
 
+\end{document}
