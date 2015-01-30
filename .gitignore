@@ -1,7 +1,7 @@
 ## Files I dont want to keep track of
 Haggen_Cover_Letter.*
 Kyle_Rader_Resume.*
-
+*.zip
 ## swap files
 *.swp
 *.cls
